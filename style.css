@@ -1,0 +1,13 @@
+.card {
+    width: 500px;
+    height: fit-content;
+    background-color: aliceblue;
+    border-radius: 25px;
+    border: solid 3px navy;
+    margin: 20px;
+    padding: 40px;
+}
+
+span {
+    color: navy;
+}
