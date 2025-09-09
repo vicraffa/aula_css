@@ -23,7 +23,8 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
+
 }
 
 .filho {
@@ -34,18 +35,25 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    
 }
 
 .cor1 {
     background-color: #ED145B;
+    order: 1;
+    align-self: flex-start;
 }
 
 .cor2 {
     background-color: #63B1BC;
+    order: 3;
+    align-self: flex-end;
 }
 
 .cor3 {
     background-color: #EFB661;
+    order: 2;
 }
 
 .instrucoes {
